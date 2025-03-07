@@ -45,4 +45,7 @@ RUN mkdir -p ./data
 EXPOSE 3000
 
 # Modifier le script pour utiliser le chemin Chromium correct
-RUN sed -i 's/puppeteer.launch(/puppeteer.launch({ executablePath: "\/usr\/bin\
+RUN sed -i 's/puppeteer.launch(/puppeteer.launch({ executablePath: "\/usr\/bin\/chromium", args: ["--no-sandbox"] })/g' index.js
+
+# Commande de démarrage
+CMD ["node", "index.js"]
