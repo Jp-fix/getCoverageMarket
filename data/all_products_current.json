@@ -66,11 +66,6 @@
   },
   {
     "brand": "Apple",
-    "name": "iPhone 14 Pro Max",
-    "url": "https://www.combak.co/smartphone/apple/iphone-14-pro-max--46a68935-2377-45c8-b2be-958257b5fa1c"
-  },
-  {
-    "brand": "Apple",
     "name": "iPhone 14 Plus",
     "url": "https://www.combak.co/smartphone/apple/iphone-14-plus--2ade6dc0-5033-4779-8f43-085d0abcc9b4"
   },
@@ -78,6 +73,11 @@
     "brand": "Apple",
     "name": "iPhone 15 Pro",
     "url": "https://www.combak.co/smartphone/apple/iphone-15-pro--856ec8b8-ad2c-4a7e-9ed9-4afb136a4752"
+  },
+  {
+    "brand": "Apple",
+    "name": "iPhone 14 Pro Max",
+    "url": "https://www.combak.co/smartphone/apple/iphone-14-pro-max--46a68935-2377-45c8-b2be-958257b5fa1c"
   },
   {
     "brand": "Apple",
@@ -190,14 +190,9 @@
     "url": "https://www.combak.co/smartphone/samsung/galaxy-s24--0883de74-8ffc-4915-a966-979899689c8a"
   },
   {
-    "brand": "Samsung",
-    "name": "Galaxy S23+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s23-plus--53425a6e-ff67-47eb-b536-cc5d79fe5549"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S22+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s22-plus--4e43a271-7f5e-4085-a4b1-c5f05f9ae3ef"
+    "brand": "Apple",
+    "name": "iPhone 16 Plus",
+    "url": "https://www.combak.co/smartphone/apple/iphone-16-plus--e0c5fc9e-dd66-4e35-bd92-e33461039c10"
   },
   {
     "brand": "Apple",
@@ -205,9 +200,14 @@
     "url": "https://www.combak.co/smartphone/apple/iphone-7-plus--c13e4284-1a59-4ed2-8492-253e06587ed6"
   },
   {
-    "brand": "Apple",
-    "name": "iPhone 16 Plus",
-    "url": "https://www.combak.co/smartphone/apple/iphone-16-plus--e0c5fc9e-dd66-4e35-bd92-e33461039c10"
+    "brand": "Samsung",
+    "name": "Galaxy S22+",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-s22-plus--4e43a271-7f5e-4085-a4b1-c5f05f9ae3ef"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23+",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-s23-plus--53425a6e-ff67-47eb-b536-cc5d79fe5549"
   },
   {
     "brand": "Samsung",
@@ -246,6 +246,11 @@
   },
   {
     "brand": "Apple",
+    "name": "iPhone 6s",
+    "url": "https://www.combak.co/smartphone/apple/iphone-6s--0ed1db37-c552-4061-950d-cf66bfd05efe"
+  },
+  {
+    "brand": "Apple",
     "name": "iPhone 16 Pro Max",
     "url": "https://www.combak.co/smartphone/apple/iphone-16-pro-max--8db0365d-8518-4d3b-9baf-09007b135a4c"
   },
@@ -260,11 +265,6 @@
     "url": "https://www.combak.co/smartphone/samsung/galaxy-a52--039be5b5-4a69-448b-9ad2-ab069dcb7f72"
   },
   {
-    "brand": "Apple",
-    "name": "iPhone 6s",
-    "url": "https://www.combak.co/smartphone/apple/iphone-6s--0ed1db37-c552-4061-950d-cf66bfd05efe"
-  },
-  {
     "brand": "Samsung",
     "name": "Galaxy Z Flip 5",
     "url": "https://www.combak.co/smartphone/samsung/galaxy-z-flip-5--69d6e679-4725-49a8-a368-174584229341"
@@ -273,6 +273,11 @@
     "brand": "Samsung",
     "name": "Galaxy Z Flip 6",
     "url": "https://www.combak.co/smartphone/samsung/galaxy-z-flip-6--88f2af80-80b1-4884-aef4-ab6f4b89629d"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A12",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a12--53f39ad2-be78-43a2-922d-ec66e5e859a1"
   },
   {
     "brand": "Samsung",
@@ -286,23 +291,13 @@
   },
   {
     "brand": "Samsung",
-    "name": "Galaxy A12",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a12--53f39ad2-be78-43a2-922d-ec66e5e859a1"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S2",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s2--68abdf6c-f3a9-4816-a60d-0626a7cc4b71"
-  },
-  {
-    "brand": "Samsung",
     "name": "Galaxy A13",
     "url": "https://www.combak.co/smartphone/samsung/galaxy-a13--16f6a9c6-e1b1-48ef-969d-7ad4164cfa2c"
   },
   {
     "brand": "Samsung",
-    "name": "Galaxy A52s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a52s--e638db28-2ea9-4744-aaa1-6edfe6c3773f"
+    "name": "Galaxy S2",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-s2--68abdf6c-f3a9-4816-a60d-0626a7cc4b71"
   },
   {
     "brand": "Samsung",
@@ -321,8 +316,8 @@
   },
   {
     "brand": "Samsung",
-    "name": "Galaxy S10",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s10--541bf2fd-b4c4-43a8-b065-0ec4595c94b1"
+    "name": "Galaxy A52s",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a52s--e638db28-2ea9-4744-aaa1-6edfe6c3773f"
   },
   {
     "brand": "Samsung",
@@ -338,6 +333,16 @@
     "brand": "Huawei",
     "name": "Huawei P20 Lite",
     "url": "https://www.combak.co/smartphone/huawei/huawei-p20-lite--71de99dd-57fa-43db-b250-dfd1ff2601cb"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S10",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-s10--541bf2fd-b4c4-43a8-b065-0ec4595c94b1"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A50",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a50--d48b0526-1e52-4bcb-8331-4707cca6053c"
   },
   {
     "brand": "Xiaomi",
@@ -370,34 +375,9 @@
     "url": "https://www.combak.co/smartphone/xiaomi/mi-11--1fd3debf-098c-4d13-9736-46c94f0d3a63"
   },
   {
-    "brand": "Samsung",
-    "name": "Galaxy A50",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a50--d48b0526-1e52-4bcb-8331-4707cca6053c"
-  },
-  {
     "brand": "Apple",
     "name": "iPhone 6",
     "url": "https://www.combak.co/smartphone/apple/iphone-6--251712bf-455c-4f3e-9654-49d4f3d47ed7"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S23 FE",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s23-fe--b7531e76-f0ce-4c5d-932a-f4f4035fbc90"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 9 Pro",
-    "url": "https://www.combak.co/smartphone/google/pixel-9-pro--a3e37ef5-3364-47c8-a7a7-7dfba9e0202b"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 11 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-11-pro--5779a3a4-8d51-4c47-b9dd-4472a264f348"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11-lite--515e7cd2-8ff2-4834-981d-269253a44d31"
   },
   {
     "brand": "Samsung",
@@ -406,13 +386,28 @@
   },
   {
     "brand": "Xiaomi",
-    "name": "Redmi 10",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-10--9c074136-f2af-45e8-949e-95d03508559e"
+    "name": "Mi 11 Lite",
+    "url": "https://www.combak.co/smartphone/xiaomi/mi-11-lite--515e7cd2-8ff2-4834-981d-269253a44d31"
   },
   {
-    "brand": "Huawei",
-    "name": "Huawei P30 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p30-lite--9bb1c00a-9a97-490a-89b6-e63ed90d5258"
+    "brand": "Xiaomi",
+    "name": "Redmi Note 11 Pro",
+    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-11-pro--5779a3a4-8d51-4c47-b9dd-4472a264f348"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Redmi Note 10",
+    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-10--d8cfe0f7-b637-40e7-b26d-ac6159d4d18b"
+  },
+  {
+    "brand": "Google",
+    "name": "Pixel 9 Pro",
+    "url": "https://www.combak.co/smartphone/google/pixel-9-pro--a3e37ef5-3364-47c8-a7a7-7dfba9e0202b"
+  },
+  {
+    "brand": "Xiaomi",
+    "name": "Redmi 10",
+    "url": "https://www.combak.co/smartphone/xiaomi/redmi-10--9c074136-f2af-45e8-949e-95d03508559e"
   },
   {
     "brand": "Apple",
@@ -425,9 +420,14 @@
     "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-8-pro--5e5b791b-ed90-4f58-84f0-3ded563fecbb"
   },
   {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 10",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-10--d8cfe0f7-b637-40e7-b26d-ac6159d4d18b"
+    "brand": "Samsung",
+    "name": "Galaxy A54",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a54--bf8a3375-99d5-4545-9cb2-e357876517d0"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy S23 FE",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-s23-fe--b7531e76-f0ce-4c5d-932a-f4f4035fbc90"
   },
   {
     "brand": "Google",
@@ -441,13 +441,18 @@
   },
   {
     "brand": "Samsung",
-    "name": "Galaxy A54",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a54--bf8a3375-99d5-4545-9cb2-e357876517d0"
+    "name": "Galaxy A40",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a40--b59f16e3-4b81-42a9-8eea-4da44f327555"
   },
   {
-    "brand": "Xiaomi",
-    "name": "Mi A3",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-a3--9d5907f1-c0c9-4b81-803e-fe1c37909e97"
+    "brand": "Huawei",
+    "name": "Huawei P30 Lite",
+    "url": "https://www.combak.co/smartphone/huawei/huawei-p30-lite--9bb1c00a-9a97-490a-89b6-e63ed90d5258"
+  },
+  {
+    "brand": "Samsung",
+    "name": "Galaxy A51",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a51--5f9d1447-bae3-43d3-bec3-c7a8e3f93d80"
   },
   {
     "brand": "Google",
@@ -456,18 +461,13 @@
   },
   {
     "brand": "Samsung",
-    "name": "Galaxy S9+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s9-plus--158df255-0a90-4558-896f-375ad7c5a239"
+    "name": "Galaxy A20e",
+    "url": "https://www.combak.co/smartphone/samsung/galaxy-a20e--3cec8143-3def-4031-b905-d5162a3d2336"
   },
   {
     "brand": "Samsung",
     "name": "Galaxy S10e",
     "url": "https://www.combak.co/smartphone/samsung/galaxy-s10e--b6546fc3-92cb-40ad-9439-8ccef7ddc0fb"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A51",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a51--5f9d1447-bae3-43d3-bec3-c7a8e3f93d80"
   },
   {
     "brand": "Samsung",
@@ -478,1565 +478,5 @@
     "brand": "Xiaomi",
     "name": "Redmi 8",
     "url": "https://www.combak.co/smartphone/xiaomi/redmi-8--102eabaa-85ee-478f-9579-e2eb3b581e76"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Z Flip 3",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-z-flip-3--e1cc8c8e-a5f3-497e-ae8c-e80112954c06"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S8",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s8--d9a932b6-2023-4c44-bf38-12893563927d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11t-pro--906be25f-eb1d-49c9-969e-67ee41616c1f"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A20e",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a20e--3cec8143-3def-4031-b905-d5162a3d2336"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 9t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-9t-pro--dc85eb6c-24cb-47cc-912f-f061f3b0af08"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A40",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a40--b59f16e3-4b81-42a9-8eea-4da44f327555"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A71",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a71--aa68ade2-54d5-4e13-bf67-22b6399f596a"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P40 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p40-lite--7ecc8fdb-ad11-40c4-ae12-f4152ae8a203"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 10t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-10t-pro--5915bf38-625a-4894-982a-5349f1e0a591"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11t--2ba89cd3-fe71-4ebb-b355-a58e7533dcf2"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 9 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-9-pro--fb0b88b2-680e-42f4-abf6-d5d3ef5b0597"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 8t",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-8t--bac1e7ed-d72d-4199-8bac-da6493db43b7"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P20",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p20--b571bf34-6589-4b3e-8fc6-8eccae24c2ee"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 7",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-7--78e56767-d70f-47ca-bf6b-2009e51ca815"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 9a",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-9a--43a0b823-8650-41e6-a524-88eb9deb8dd7"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P30",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p30--42fa8c1d-2d84-4fd5-8488-a9595f3e38b1"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 11s",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-11s--41270ff2-3d59-4553-9a9e-ad0d884f5578"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 9",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-9--0513c732-fe12-457e-8e81-f705c92b0cb8"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A22",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a22--bdab83b7-94d6-40ec-bf96-fb488b89f725"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J5",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j5--b6e17cba-aeca-45c5-9755-18ec2ee5fa39"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 11",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-11--a6fce0cd-eb5f-47d3-97be-20d2aba8415d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 8",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-8--a3bdabd4-1ffa-438f-91ff-706c63eba56c"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A33",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a33--12056a02-4287-4cc4-a2be-bef9e0adfac8"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A21s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a21s--02458278-aba9-4862-9a36-9520d9b48142"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A14",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a14--d6dc30ee-3405-49ea-9115-f7a7d2787d4a"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 10s",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-10s--d4fb2985-6759-433c-bc26-78e3267d7476"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A15",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a15--7c568a06-9dc6-4520-b194-c409b74fd385"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XZ2",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-xz2--0cec4205-3f78-4235-9834-cf976ca38c00"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 9s",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-9s--05920845-8c6c-4b0c-9641-21cc0413055d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 9",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-9--e0dc26aa-6d2f-4938-84bf-3833d623e1e0"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 9 Pro",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-9-pro--c9a28955-5656-4bbf-b83c-06f601775a76"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 12",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-12--c6734155-e3f8-45d6-b1f1-a25b55d03e25"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P20 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p20-pro--66d352a1-de75-4fb2-a2a7-2807572c0f6c"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 6s Plus",
-    "url": "https://www.combak.co/smartphone/apple/iphone-6s-plus--62b9a275-169f-4142-899c-1bd220000593"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13--5a676a42-f6b2-4b53-8097-6db6148c0190"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 7",
-    "url": "https://www.combak.co/smartphone/google/pixel-7--470aa3fd-7543-45aa-ae94-411700d78ca9"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A10",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a10--1dc9fe27-ecf9-4387-a470-d3bbf12ce6ac"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Note10+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-note10-plus--eb8791ae-76e0-41d5-a180-f48aefe6d1e3"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A70",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a70--d3811fad-c7d2-4edf-8b00-1083cce751a8"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A72",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a72--d2fac9fc-5be3-4b6c-9e66-9e066805edb3"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13t-pro--f4968682-6a2a-4fc6-9231-2f71b98ce02f"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 20",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-20--f18d9409-d672-4de1-a7c1-7c4f0ea24a66"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A34",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a34--774abb79-fc4c-4e2d-a079-4c20b30a47b2"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Note9",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-note9--7055230c-df36-438e-b5c5-7cf65a64e5e1"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 13c",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-13c--391099d9-0276-4cbc-81d2-4eac030a2296"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A5",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a5--3188cf25-7fb8-4848-bc47-7f219518eb91"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S24 FE",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s24-fe--f2f8c2fe-9696-4670-ad76-00b1f1ba6869"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 12 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-12-pro--f120ca3f-a26e-48ab-9ec9-9716e00ea5fd"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 200",
-    "url": "https://www.combak.co/smartphone/honor/honor-200--dc80465a-9b14-4709-8257-eeaa1ad409ed"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 6a",
-    "url": "https://www.combak.co/smartphone/google/pixel-6a--ce714354-8e15-429d-9297-8b0dcab90e9d"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 6",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-6--a7167dda-af82-4c2e-9490-9c7a0e476b90"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S20 Ultra",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s20-ultra--8117fcf1-a803-4214-bab3-b86cf6b968af"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco M4 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-m4-pro--78787bae-7f06-4f86-9bc9-99a504b216f8"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 6 Pro",
-    "url": "https://www.combak.co/smartphone/google/pixel-6-pro--70e9b32d-f0b2-4b69-a081-2a85cd2170e0"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11 Lite NE",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11-lite-ne--705f0ac6-b20f-4686-a5ca-1ccf59a4ea15"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-nord--38491676-a7cf-4846-a3ad-6b7d1e8bc1f7"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A55",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a55--327f003d-1719-43a6-a778-685dca780bdb"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2020",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2020--2207c92e-6951-4c3f-b279-23452e3f3f16"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 50",
-    "url": "https://www.combak.co/smartphone/honor/honor-50--1c8f6e9b-ce96-42e6-a3e5-c54f8835f0ed"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 8t",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-8t--ce8a7f9a-1a57-45dc-bf15-ce0f5a7a0881"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Pro 13\" 2019",
-    "url": "https://www.combak.co/smartphone/apple/macbook-pro-13-2019--ce3515b8-b6e8-4940-b538-d87b5497e03c"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 7 Pro",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-7-pro--ca814047-ddde-497b-ae9a-b305357f2363"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 9 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-9-lite--a16088cc-94e2-4aa1-9a43-7cf16a7440c5"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 9",
-    "url": "https://www.combak.co/smartphone/google/pixel-9--9048fb3a-a8ad-4634-bab9-89cb6e584fe6"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 70",
-    "url": "https://www.combak.co/smartphone/honor/honor-70--8d93b1d1-e712-4433-8ff5-4bdc730374d8"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S8+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s8-plus--6d41e280-066f-466b-8f1f-a4ea4101181c"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A35",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a35--3ea87a83-2c3a-4dbf-b017-81e53a988d13"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic 5 Pro",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-5-pro--2b6ff045-782d-4c4f-95fc-7c9e2a6f7c54"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco F3",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-f3--b852892c-f8e4-4796-8714-4fc539fdd3f1"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 14t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-14t-pro--b56aea7e-6e5d-4278-8558-3d3578dcc446"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P40",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p40--a4efbf01-9b60-44cd-9ae1-847b8e8ab009"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 10",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-10--7d728dff-e0da-481f-9918-13968c5ff13c"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 13 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-13-pro--71aa9580-5c6e-4797-b791-42b889690b36"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X3 Pro",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x3-pro--6fc84de7-6d55-42ce-9d2e-65bd0574cf26"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J3",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j3--47d54084-da07-4473-a5dd-ec875e876e34"
-  },
-  {
-    "brand": "Apple",
-    "name": "Déstockage",
-    "url": "https://www.combak.co/smartphone/apple/d%C3%A9stockage--3c702a26-f894-406a-ad73-218c8a5171b8"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A41",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a41--0eb1f35d-0011-4fbb-9801-c284344522e0"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 10 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-10-lite--ec5e4f0f-7aa5-4b74-a030-5552b8277c17"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 9",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-9--c9b58125-6e3e-4095-9ba5-6eacd7e55cf1"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A74",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a74--c327a8ab-3e5b-4193-b67c-e5a4c29e6dc9"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 13",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-13--be45d1eb-a485-4d81-8505-0b321ed48aa9"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Pro 15\" 2015",
-    "url": "https://www.combak.co/smartphone/apple/macbook-pro-15-2015--a75ef359-6e0c-4605-9d55-8314ebd1cd04"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco X5 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-x5-pro--a5b56958-f4bb-4713-b31e-1fd4ae949af0"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P8 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p8-lite--7a2d3c9d-fe32-44d8-8b4c-987b03bb0945"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11i",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11i--782c4515-ccc8-4961-b1d4-f75ef31b4659"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 8",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-8--583b43ab-a967-4fd4-93e4-e2c19727f128"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S7",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s7--4add496c-cfaf-432a-98d5-cb85998f78ed"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 11 Pro+",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-11-pro-plus--43866799-4c14-4844-9d74-ac709e81c37f"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12--105b83e0-16b2-4e00-afc4-44d970484059"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12t Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12t-pro--05377fca-5d65-4bcb-9c20-507172e47c10"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 7t",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-7t--ed19be67-b103-421c-95e5-fb7611bc865b"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12-lite--e8649543-ef7b-4142-8857-d7d38edf5f82"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S5",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s5--e82b6005-2a92-471d-97d0-107168a01091"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic 5 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-5-lite--99e00687-ecd7-4478-8ed4-275533eab29f"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 10 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-10-pro--7e3ebd2c-10c4-4d70-900b-de3fa16e19b7"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13 Ultra",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13-ultra--788080c7-39ec-4084-9e94-f61d6fb6cf61"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X3 Lite",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x3-lite--721ee344-7d1a-453f-8ba1-4142bc1e603d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 10t Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-10t-lite--57369169-a710-4c2d-ada5-590512bb61d4"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 10t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-10t--54691036-5ee2-411f-974b-05d8594f3c01"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A25",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a25--4b20acef-0192-4075-82f8-8c02cb2d4e56"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi Note 10 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-note-10-lite--46e74129-0fdd-41f0-ab88-b29f50c12c6d"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A17",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a17--386d865b-b4fc-4639-ad06-242898f11a1d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 7",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-7--27132004-f83a-4131-93f1-a6248e12a68c"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12t--22c31f08-6705-47cb-aa85-08fae95d4ae4"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2015",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2015--fa2b109a-d231-44e5-8da3-2aa3a863b662"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 9",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-9--cf02b0e6-ce5a-45dd-805e-b2d36e4d5cfd"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno 8",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno-8--cb3cc22e-e263-49d6-a188-56702c61bcf2"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 9t",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-9t--c90d9753-0da0-464e-b5aa-b2eea3614045"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Razr 40 Ultra",
-    "url": "https://www.combak.co/smartphone/motorola/razr-40-ultra--c64ccfcd-cdb8-4dbe-ba33-9e1fb6fd3975"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Razr 40",
-    "url": "https://www.combak.co/smartphone/motorola/razr-40--aa0cb8f1-09bf-4f14-91ba-1a4e0cdebbdf"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Honor 7x",
-    "url": "https://www.combak.co/smartphone/huawei/honor-7x--a8792cfd-cb93-41ac-904e-884756d71910"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2017",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2017--a034a325-1ce9-4172-9ad4-eddfbafbfa6a"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A16",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a16--9cab4f79-0487-43f6-b10c-a819869b5768"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 6t",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-6t--730944dc-43ce-42ff-b594-5ec9c07c62a7"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco F4",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-f4--53f2c3d5-9ec2-4f1b-898e-55f3792a5718"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X5 Pro",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x5-pro--4f3a0101-34e8-4abb-8289-f38fc1a57cc4"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13-lite--3ba160bd-3931-48f8-8c97-d603a772499a"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 6 Plus",
-    "url": "https://www.combak.co/smartphone/apple/iphone-6-plus--2fa4f2eb-8130-46cf-815e-c11cbe0da58e"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XZ3",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-xz3--23d2c663-d59c-45e5-979f-8200b20bd236"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 10 Pro",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-10-pro--1cd5a0e3-053c-4e1d-83c0-7bb1575b65c7"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno6",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno6--1b049a95-4560-4873-9a8c-929b2d213fed"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P10 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p10-lite--15c0d00b-e780-4c92-96ac-c6554bfa2e7f"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12-pro--105bce9c-f6cb-4085-a510-2ac590c0e31a"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 6",
-    "url": "https://www.combak.co/smartphone/google/pixel-6--0682b00b-4d5b-487a-a57b-3e7783b6cbf7"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P Smart",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p-smart--ea012465-25d1-4799-ba16-cac898d89df8"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 11",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-11--e05921bc-16fe-4160-b009-7816b55668f7"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A30s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a30s--e005f7f1-3f3c-4e52-9825-eebc60fe94a6"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X3 Neo",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x3-neo--d1a56019-3874-4b2c-a3f0-a54bd2713d91"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J4+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j4-plus--d0913c9e-af9e-4a99-8962-b07bb3c540eb"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi Note 10",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-note-10--cdff23d8-2ccc-4898-9a3c-f2e7172c1aaf"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 9c",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-9c--954af5ba-cd23-4f92-9067-b472b7e6d10b"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 12",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-12--78d14659-0c84-43c3-9c15-343f6ee8f39b"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 7a",
-    "url": "https://www.combak.co/smartphone/google/pixel-7a--789ddae2-17de-4a8a-8b4b-a5cd3df5013c"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S7 edge",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s7-edge--67728663-7da5-4565-8e7a-adf71d1ae2d3"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P10 Plus",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p10-plus--5f6775bc-7571-40e1-a499-a805b03d2252"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S6 edge",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s6-edge--5901e926-c70c-4415-b49a-e6fe64159eb8"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 10 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-10-lite--529b1d9d-cab7-4133-85a1-842466c1dc69"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A42",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a42--077b6c87-f5cc-446b-942a-4f9d7057687e"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 12x",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-12x--02833802-c1a4-4e23-8f07-8cdedc9154fd"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A16s",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a16s--fe3b0793-ba38-4909-ac22-14d446d29e8a"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme GT2 Pro",
-    "url": "https://www.combak.co/smartphone/realme/realme-gt2-pro--f2018874-85a0-4ad7-a2e7-6f027e836918"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia C2-05",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-c205--ea6f50d8-d009-4c58-9c4c-e9be24aa1d72"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 10t",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-10t--e3ab71c2-e064-4281-a2f7-6c064bd117b0"
-  },
-  {
-    "brand": "ELENXS",
-    "name": "N/A",
-    "url": "https://www.combak.co/smartphone/elenxs/--daf568db-3ca2-4fb5-9acc-71bfdecc4dc7"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XZ",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-xz--cd730c55-2a35-420f-aa91-a32df1d94cf4"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Pocophone F1",
-    "url": "https://www.combak.co/smartphone/xiaomi/pocophone-f1--cce25489-c952-4103-951f-005d922e3298"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A8",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a8--ca6c1004-f90e-464c-9620-c15f451ba0df"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A31",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a31--be2684c7-9239-4df4-b267-73fec8cdfd5e"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 5.4",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-54--b0479f76-4040-40bd-b334-47bff520da27"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 5c",
-    "url": "https://www.combak.co/smartphone/apple/iphone-5c--a0cf6de4-0202-4054-aa17-bb3dcc337b91"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco M3 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-m3-pro--918fc9dd-7cbb-49d6-8fcc-062d91607d1d"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X2 Lite",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x2-lite--8121d6a1-521c-49a5-a1a9-bbc51d7dfb47"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno4 Z",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno4-z--7e48efc9-81e2-484e-ba29-48f7b6947952"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X5",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x5--71e73bcd-7b8d-4170-ac94-577ad93b7385"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 8a",
-    "url": "https://www.combak.co/smartphone/google/pixel-8a--6f83f4a8-56a0-4c4d-9378-4f0b500e16c6"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 90",
-    "url": "https://www.combak.co/smartphone/honor/honor-90--6a43de08-53b5-4fb7-afdf-966170b5f533"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S6",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s6--6867a3bd-92f4-481c-ada8-d26fcb05eb31"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A3",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a3--669c1e55-413d-42c4-8a18-ae5759d74991"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A16",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a16--66189bce-df62-49ee-b389-f44a4029193c"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A94",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a94--653f0041-1375-4c6b-827f-a399a87cb07c"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note--63a4e822-f3ea-4d96-89bb-12b9f83f3e14"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic 4 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-4-lite--4aafbfb7-d837-4602-af52-7883956febf5"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Nova 5t",
-    "url": "https://www.combak.co/smartphone/huawei/nova-5t--28a30ad0-2a0a-49b9-b8aa-8cc52411657f"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X5 Lite",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x5-lite--204ea23e-f8d3-4d05-8647-0d9d42934859"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 9 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-9-lite--1aa1ad19-642b-472b-ae12-34e1007fa21f"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Note10",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-note10--0f3b32b1-1110-423d-9dfc-ef68376dcac4"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P40 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p40-pro--06ce9aa5-103d-4e95-9233-1bcd08c9e0ad"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A12s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a12s--05bd6e9e-c7f5-4625-979a-05d2c33de94a"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic 6 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-6-lite--02770bea-3147-4578-b37d-d9c804f18d7d"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 40 Neo",
-    "url": "https://www.combak.co/smartphone/motorola/edge-40-neo--ff16ba8a-6a7e-478b-8d43-561792452462"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J7",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j7--f2ef458e-1828-4817-962c-56024c23ac16"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 4a",
-    "url": "https://www.combak.co/smartphone/google/pixel-4a--f2c4703a-513c-41e1-ac77-549b4d8a9d2a"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco X4 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-x4-pro--e0328dcf-05fb-40b4-a8ac-f68156d31d72"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Note10 Lite",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-note10-lite--dae6b81d-750f-463d-a31d-cb553273c50c"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 9t",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-9t--d2a855bd-9952-48af-a402-fb7a8b0bca45"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy M20",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-m20--c202b8e0-fbbb-45b8-9fde-79b500f05998"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 30",
-    "url": "https://www.combak.co/smartphone/motorola/edge-30--c200590f-7e35-43f7-9db7-a07c74bc469e"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P60 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p60-pro--bd1e25d2-52da-48ed-a821-8ad34aee6122"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco F5 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-f5-pro--ae4bac37-9da4-4200-b8a6-f587ea067b54"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno2",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno2--a7177afd-198f-4bcb-bd68-9d3fe00c4c48"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S10 Lite",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-s10-lite--a6ef6a92-1391-4b9f-832c-a8e9214b064a"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Z Fold 3",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-z-fold-3--a3b98db2-093d-4961-a063-5fa999c290ad"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno4 Pro",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno4-pro--a35adfe1-905d-41ce-9182-787be6434346"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy Xcover Pro",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-xcover-pro--a2d535d5-5c34-4594-9778-b62a68f85440"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 5s",
-    "url": "https://www.combak.co/smartphone/apple/iphone-5s--9a2a109b-6f42-458c-8649-f65361856bfb"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13-pro--952a66f0-f24d-401c-8763-a35aa184ba3a"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A05s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a05s--91409ff8-f99c-4b46-956a-942376ae7822"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 70 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-70-lite--911c743c-0c30-4e0f-a85c-7c64ce6ef8bd"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 8",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-8--8874cb36-48cd-4d4a-b3bd-a2077fbdea7e"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Razr 50 Ultra",
-    "url": "https://www.combak.co/smartphone/motorola/razr-50-ultra--7fcdf073-6993-4264-baa2-a6a9d8bd27f5"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XZ2 Compact",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-xz2-compact--7d288611-95e2-4b5b-9a15-540104292095"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 12 Pro+",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-12-pro-plus--730b08f9-b22e-4f03-a5c2-d6f80909bd99"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 9 Pro Fold",
-    "url": "https://www.combak.co/smartphone/google/pixel-9-pro-fold--6f9232d4-b9b6-458d-a700-73773fc4a720"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A54",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a54--6e8cd0fa-35cf-46f7-9948-a12bdde7e4b6"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 12c",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-12c--6e449007-ece3-489f-a340-24d7fd4a4d2a"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 5",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-5--6bd6948f-b40d-47f3-8c30-6b80724e1dcb"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 20 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-20-lite--6149e3f1-15ac-4e9f-bd1d-61d3b2a4cf4d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Xiaomi Redmi 14C",
-    "url": "https://www.combak.co/smartphone/xiaomi/xiaomi-redmi-14c--5e0de42c-2586-4528-8ba4-9fc045befd77"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno 8 Lite",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno-8-lite--4ad8dbc0-0f52-41c3-899d-921b5f4493bd"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 10 (2022)",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-10-2022--43ec1d21-1ac5-4fb9-bcc9-b68f98ac0691"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 14",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-14--3eb55e1d-f4be-485b-a403-75986557b70c"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 5",
-    "url": "https://www.combak.co/smartphone/apple/iphone-5--1a3c01d4-b6da-44c5-86f8-6e1f51888604"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 10c",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-10c--18f53ee3-a536-4bb2-b349-2e060cd6577e"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno6 Pro",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno6-pro--12658f9e-8464-4f2c-8fc1-f1d267c4e968"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J5 (2017)",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j5-2017--0f4a2021-f04f-46e1-bf3b-c3345c50ab81"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 2720",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-2720--fe9cef1f-aed6-4d94-8d17-c86fd730e475"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto G50",
-    "url": "https://www.combak.co/smartphone/motorola/moto-g50--fc8fe9b0-9393-4021-a37a-05c0f12dbb4a"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 3.4",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-34--f8a63f1d-b9ff-4af3-830e-4c2bccf9c680"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Find X2 Neo",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-find-x2-neo--de7beb06-c88e-4106-8519-d1cb320aaa3f"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 1 IV",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-1-iv--d5306411-32d0-4a0f-995b-ee8b1256d121"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A6 (2018)",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a6-2018--cfbb0dac-e245-4796-ba61-1a31c8da038a"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P10",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p10--cb00c306-5458-4cb4-a6bc-f85ab6fb8dfa"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 40",
-    "url": "https://www.combak.co/smartphone/motorola/edge-40--b158fa9a-3bfb-44ee-a19c-07efbd294494"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 1",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-1--a628c3c3-4e08-4d6a-baa1-3f17fe9a8f8a"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A03s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a03s--a4cccc80-d651-4f20-beb9-804e4ec37919"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno 8 Pro",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno-8-pro--8aedecce-7bba-41c3-827a-a790e392f260"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 10a",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-10a--6d8aa9ae-dd4b-44cd-a139-ecb7b6382671"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 14t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-14t--6b5a295b-821c-4e8b-b890-ebb8fcaaa430"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 90 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-90-lite--69d5cc60-46ad-4e2b-9731-e72a06b6bc05"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 8 Pro",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-8-pro--679fb513-1a80-4e81-a782-fc7207176070"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 10",
-    "url": "https://www.combak.co/smartphone/honor/honor-10--6784c37d-0dd7-4da0-8e71-4ba92eba28f6"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A53s",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a53s--6045bd04-5df2-451e-a8f6-e8756b47e70a"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 9 SE",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-9-se--57f00e76-db29-4181-886e-70d73c80eaa2"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic--50517e45-922e-4461-8be4-2fa181c6b6fe"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2013",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2013--4fb006ba-2583-4f10-93d7-9b754a215bf8"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus 7",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-7--4c94b17f-c93f-4ef3-8967-58a3a815ae67"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme GT master",
-    "url": "https://www.combak.co/smartphone/realme/realme-gt-master--454e6463-f997-458c-a9b4-0cea6c0b8c60"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco X3 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-x3-pro--01f757d2-634c-42df-a93e-3faf35a91497"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 20 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-20-pro--00f413d9-9d5f-4601-b563-7609c0cebd89"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi A3",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-a3--fee48eeb-6cbd-4dc6-ae9b-d4f0bce4814e"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A8 (2018)",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a8-2018--fda274c3-6a18-4b35-8607-d546893108a5"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord ce",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-nord-ce--f0706263-395c-46ae-b0fd-9542e7851754"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme GT master edition",
-    "url": "https://www.combak.co/smartphone/realme/realme-gt-master-edition--efd33155-7bca-40fb-adfb-805b9ff2b7e1"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J6",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j6--ef9148ef-7811-4caf-9c49-5aaebf18e403"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto G84",
-    "url": "https://www.combak.co/smartphone/motorola/moto-g84--ebf5403a-7e1a-4cf9-8bdf-76f5f787e390"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A77",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a77--cf950017-830e-4b21-871c-8fc3a26a6d2b"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Pro 13\" 2018",
-    "url": "https://www.combak.co/smartphone/apple/macbook-pro-13-2018--ceb07eee-2a7e-4b95-906f-8a85573a967f"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia L1",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-l1--cd58ce12-1480-49cc-bb14-8f59a609bebb"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 11 Ultra",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-11-ultra--cb492ae0-b102-4bf1-b691-3cffdcd2f855"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 8 Lite",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-8-lite--c9b222f5-ef5e-4543-b5f5-1b70046f3c40"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 20 Lite",
-    "url": "https://www.combak.co/smartphone/motorola/edge-20-lite--c676ecc9-d101-49c2-b760-c7aaaaa03dca"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto G14",
-    "url": "https://www.combak.co/smartphone/motorola/moto-g14--c55e1390-7a63-4938-9283-23f7aff36061"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A96",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a96--c1181fd8-c438-41bb-b0ee-6fc9980a87ae"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia C5",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-c5--b9c3cd00-074a-4f9b-a8c6-143024e2ea03"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 13t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-13t--b883f6d6-781f-4fa0-93de-612669d55dfd"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 9t",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-9t--b0dbd7fc-ed83-42ab-9379-4313bf9922ff"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A30",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a30--a8994b5d-731e-431a-8a12-e2ac20d79e73"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 7 Plus",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-7-plus--9bde8795-f78f-4a61-832c-c1ed66de0bed"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Y6p",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-y6p--967fc9e7-2965-474c-ab84-f6886b184be9"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 9",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-9--8f3366bf-5d6c-47dc-8699-f45406ac421a"
-  },
-  {
-    "brand": "Crosscall",
-    "name": "Crosscall core-m5",
-    "url": "https://www.combak.co/smartphone/crosscall/crosscall-corem5--784e1ba2-5784-40bd-9837-32a91db801a9"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno4",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno4--6191399e-acce-4397-8fee-068b9e50da2d"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Nova 8i",
-    "url": "https://www.combak.co/smartphone/huawei/nova-8i--5f316482-d074-4d47-b54b-ff25d596d5a0"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco F2 Pro",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-f2-pro--5ca81126-4b2b-435d-98f1-aec93cb958dd"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 20",
-    "url": "https://www.combak.co/smartphone/honor/honor-20--4def6ee0-48ec-43f9-9a53-0266ab6dd1e8"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 8i",
-    "url": "https://www.combak.co/smartphone/realme/realme-8i--4ad28d5e-6c62-47bc-8eaa-a6233e6682a9"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco F4 gt",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-f4-gt--3f1826d1-0fd4-4d84-a369-9408897cb59b"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Honor Play",
-    "url": "https://www.combak.co/smartphone/huawei/honor-play--3c186e84-4410-4a2f-add7-36a97d181c66"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A80",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a80--38e50957-9295-4b4b-b730-c6916f03e792"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco X5",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-x5--2e0553df-a307-4947-93ba-9bc22daa0332"
-  },
-  {
-    "brand": "Apple",
-    "name": "iPhone 4s",
-    "url": "https://www.combak.co/smartphone/apple/iphone-4s--1e6a0623-e1be-4f95-9801-2d4d071358d5"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A02s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a02s--175871e6-0aa2-40b5-be7d-ccc8a6af72e4"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P9 Lite",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p9-lite--12f6c5ba-1ed9-43c5-ad3b-20854ea8feb8"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto G6",
-    "url": "https://www.combak.co/smartphone/motorola/moto-g6--0c48247c-0c45-443b-8f45-4fbd643b5f4e"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Mate 50 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/mate-50-pro--08f6c14f-ae60-48c6-afb2-09f5ba341c78"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei P50 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-p50-pro--089d5fa7-6388-4e70-b703-f578c431e900"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Mate 30 Pro",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-mate-30-pro--074d767d-282f-44d6-bad2-be7c888af434"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia XA Ultra",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-xa-ultra--050a7656-d18a-44c6-a083-b213b322d9c3"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 200 Lite",
-    "url": "https://www.combak.co/smartphone/honor/honor-200-lite--04ec2d25-e0ca-420f-98dd-7b778cf3149c"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Nova 9 SE",
-    "url": "https://www.combak.co/smartphone/huawei/nova-9-se--0006a746-e3f1-438c-9dc7-fc066fed67f2"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto G",
-    "url": "https://www.combak.co/smartphone/motorola/moto-g--fe973829-53b2-4f30-9285-074647cbdc6a"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy M12",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-m12--fddfab56-337d-458f-8af3-dc570a8723a5"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A04s",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a04s--fdc4e247-bed2-4f50-a631-8e27e8719c05"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 11 Pro",
-    "url": "https://www.combak.co/smartphone/realme/realme-11-pro--fbde4f62-5e7f-457c-bd33-8bd8d5a1079c"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus Zenfone 10",
-    "url": "https://www.combak.co/smartphone/asus/asus-zenfone-10--f9fe6553-3016-4c57-86f4-f163b1332c1b"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno7",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno7--f4ee2801-b453-448f-8719-f71976fd94c6"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor X6",
-    "url": "https://www.combak.co/smartphone/honor/honor-x6--f3e0d339-60b8-47f1-9701-003321540cca"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2022",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2022--f378ead8-914b-4b5e-90ab-46388fd5aef7"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Air 13\" 2018",
-    "url": "https://www.combak.co/smartphone/apple/macbook-air-13-2018--f37779fe-9444-4b8d-9062-3923328852ce"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic V3",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-v3--f0af800d-589c-4875-a194-fbfaa37effd3"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia Lumia 520",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-lumia-520--ecce5257-453b-4ffd-91c9-5f6dfef726da"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A15",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a15--eb46f6bb-9d6b-48d9-9165-7df17f7fed4d"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 6",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-6--eaf6cd2e-e4d2-42b1-a0e0-e82bef221a20"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Pro 13\" 2020",
-    "url": "https://www.combak.co/smartphone/apple/macbook-pro-13-2020--e5c3b1ba-1acf-4db8-97f2-6ccc4b1ca571"
-  },
-  {
-    "brand": "Huawei",
-    "name": "Huawei Y7",
-    "url": "https://www.combak.co/smartphone/huawei/huawei-y7--dc5eb0a3-6500-423f-bcbb-22a92547278d"
-  },
-  {
-    "brand": "Asus",
-    "name": "Asus Zenfone 8",
-    "url": "https://www.combak.co/smartphone/asus/asus-zenfone-8--d8adac7f-7a3e-4ec1-8bb6-932b00df047c"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 30 fusion",
-    "url": "https://www.combak.co/smartphone/motorola/edge-30-fusion--cd7ef175-655b-4cb7-ac87-29c4ad0abe45"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia xr20",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-xr20--c8699fc6-7a5c-4fa3-be4e-488739c9f7d5"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi Note 13 Pro+",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-note-13-pro-plus--c63dc427-932c-4e8c-90f0-3ea5949a0ea5"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor Magic 6 Pro",
-    "url": "https://www.combak.co/smartphone/honor/honor-magic-6-pro--c6309bb6-b3c8-40a4-a34b-9d7c46bdb020"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo Reno2 Z",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-reno2-z--c2bab2d5-6d90-4b92-b2df-cea50e2323fd"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A6+ (2018)",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a6-plus-2018--ba2146f6-3895-42a7-a6d0-10263546f6bd"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Poco X4 gt",
-    "url": "https://www.combak.co/smartphone/xiaomi/poco-x4-gt--b9979043-01ac-4949-8d9a-f3107db4ddd4"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 7.2",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-72--b7198db1-ab0a-44fa-8fc5-e57f37b1e64f"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Mi 14 Ultra",
-    "url": "https://www.combak.co/smartphone/xiaomi/mi-14-ultra--addcbd13-b04f-4979-b208-c422bfe53f37"
-  },
-  {
-    "brand": "Vivo",
-    "name": "Vivo V21",
-    "url": "https://www.combak.co/smartphone/vivo/vivo-v21--a9df5daf-878f-47db-9fd9-372f6e9290da"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia N8",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-n8--a4066e8e-1a7e-41ff-bfd1-794130f91d87"
-  },
-  {
-    "brand": "OnePlus",
-    "name": "OnePlus Nord 2t",
-    "url": "https://www.combak.co/smartphone/oneplus/oneplus-nord-2t--9f2b7488-2786-43f6-8527-c83e0a278e27"
-  },
-  {
-    "brand": "Nokia",
-    "name": "Nokia 7.1",
-    "url": "https://www.combak.co/smartphone/nokia/nokia-71--92b1b15c-238a-47e6-aada-8f98dc34314f"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy A20",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-a20--8e3c606e-c238-4d94-8648-22ff4c0dba49"
-  },
-  {
-    "brand": "Apple",
-    "name": "MacBook Pro 16\" 2019",
-    "url": "https://www.combak.co/smartphone/apple/macbook-pro-16-2019--8c286fca-b43e-4379-ba22-81984c92a7d0"
-  },
-  {
-    "brand": "Google",
-    "name": "Pixel 3a",
-    "url": "https://www.combak.co/smartphone/google/pixel-3a--8427783c-9186-42e8-b54d-13de9c1dd53c"
-  },
-  {
-    "brand": "Honor",
-    "name": "Honor 8x",
-    "url": "https://www.combak.co/smartphone/honor/honor-8x--74dbb8eb-f715-479e-a728-004fdbc5a8d9"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J6+",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j6-plus--62c46886-39e8-4ae2-9bf6-822a6c706b53"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 50 Ultra",
-    "url": "https://www.combak.co/smartphone/motorola/edge-50-ultra--5b82ff9a-644b-4ac2-a805-f2b97446cac9"
-  },
-  {
-    "brand": "Crosscall",
-    "name": "Crosscall core-x4",
-    "url": "https://www.combak.co/smartphone/crosscall/crosscall-corex4--581bb6a9-e2a9-4dbe-9a6c-3b56fc4ef962"
-  },
-  {
-    "brand": "Xiaomi",
-    "name": "Redmi 9at",
-    "url": "https://www.combak.co/smartphone/xiaomi/redmi-9at--4fcd1b1d-b2cf-48ba-957a-e804cffb3017"
-  },
-  {
-    "brand": "Oppo",
-    "name": "Oppo A72",
-    "url": "https://www.combak.co/smartphone/oppo/oppo-a72--4e7618c9-2e2a-46ab-8119-9d89ea7b025e"
-  },
-  {
-    "brand": "Sony",
-    "name": "Sony Xperia 5 II",
-    "url": "https://www.combak.co/smartphone/sony/sony-xperia-5-ii--4d19bf9e-5f1f-4842-83ef-a25350818804"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy J4",
-    "url": "https://www.combak.co/smartphone/samsung/galaxy-j4--48f8494a-f72a-4935-ae04-709e918c1fbe"
-  },
-  {
-    "brand": "Realme",
-    "name": "Realme 9i",
-    "url": "https://www.combak.co/smartphone/realme/realme-9i--477ca944-bade-4cce-bf69-d630886fed22"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Edge 40 Pro",
-    "url": "https://www.combak.co/smartphone/motorola/edge-40-pro--30d78bbd-7dbb-4171-a994-ea5b90560d82"
   }
 ]

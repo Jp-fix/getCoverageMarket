@@ -3,701 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Combak Scraper - Interface de contrôle</title>
+  <title>QuelBonScraping</title>
+  <link rel="icon" type="image/x-icon" href="/cb-scraper/public/assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    :root {
-      /* Palette de couleurs */
-      --blue-50: #e0f2fe;
-      --blue-100: #bae6fd;
-      --blue-400: #38bdf8;
-      --blue-500: #0ea5e9;
-      --blue-600: #0284c7;
-      --blue-700: #0369a1;
-      --blue-800: #075985;
-      
-      --green-50: #ecfdf5;
-      --green-100: #d1fae5;
-      --green-400: #34d399;
-      --green-500: #10b981;
-      --green-600: #059669;
-      --green-700: #047857;
-      
-      --red-50: #fef2f2;
-      --red-100: #fee2e2;
-      --red-400: #f87171;
-      --red-500: #ef4444;
-      --red-600: #dc2626;
-      --red-700: #b91c1c;
-      
-      --yellow-50: #fefce8;
-      --yellow-100: #fef3c7;
-      --yellow-400: #facc15;
-      --yellow-500: #eab308;
-      --yellow-600: #ca8a04;
-      --yellow-700: #a16207;
-      
-      --purple-50: #faf5ff;
-      --purple-100: #f3e8ff;
-      --purple-500: #a855f7;
-      --purple-600: #9333ea;
-      --purple-700: #7e22ce;
-      
-      --gray-50: #f9fafb;
-      --gray-100: #f3f4f6;
-      --gray-200: #e5e7eb;
-      --gray-300: #d1d5db;
-      --gray-400: #9ca3af;
-      --gray-500: #6b7280;
-      --gray-600: #4b5563;
-      --gray-700: #374151;
-      --gray-800: #1f2937;
-      --gray-900: #111827;
-      
-      /* Ombres */
-      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.03);
-      --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03);
-      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
-      --shadow-focus: 0 0 0 3px rgba(59, 130, 246, 0.2);
-      
-      /* Transitions */
-      --transition-fast: all 0.15s ease;
-      --transition-normal: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-      
-      /* Rayons de bordure */
-      --radius-sm: 0.25rem;
-      --radius-md: 0.375rem;
-      --radius-lg: 0.5rem;
-      --radius-xl: 0.75rem;
-    }
-    
-    /* Reset et base */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: var(--gray-50);
-      color: var(--gray-800);
-      line-height: 1.6;
-      font-size: 0.9375rem;
-    }
-    
-    /* Animations */
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(5px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    @keyframes pulse {
-      0% {
-        opacity: 1;
-        transform: scale(1);
-      }
-      50% {
-        opacity: 0.85;
-        transform: scale(1.05);
-      }
-      100% {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-    
-    /* Container principal */
-    .page-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 1.5rem;
-    }
-    
-    /* Nav container modernisé */
-    .nav-container {
-      background: white;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-sm);
-      margin-bottom: 1.5rem;
-      border: 1px solid var(--gray-200);
-      padding: 1rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      animation: fadeIn 0.5s forwards;
-    }
-    
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      text-decoration: none;
-    }
-    
-    .logo-icon {
-      color: var(--blue-500);
-      font-size: 1.5rem;
-      background-color: var(--blue-50);
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: var(--transition-normal);
-      box-shadow: var(--shadow-sm);
-    }
-    
-    .logo:hover .logo-icon {
-      transform: scale(1.05);
-      box-shadow: var(--shadow-md);
-      background-color: var(--blue-100);
-    }
-    
-    .logo-text {
-      font-weight: 700;
-      font-size: 1.125rem;
-      background: linear-gradient(90deg, var(--blue-600) 0%, var(--blue-400) 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-    
-    .header-actions {
-      display: flex;
-      gap: 0.75rem;
-    }
-    
-    /* Container de grille */
-    .grid-container {
-      display: grid;
-      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-      gap: 1.5rem;
-    }
-    
-    @media (max-width: 1024px) {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-    }
-    
-    /* Card */
-    .card {
-      background-color: white;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-sm);
-      border: 1px solid var(--gray-200);
-      overflow: hidden;
-      transition: var(--transition-normal);
-      animation: fadeIn 0.5s forwards;
-      position: relative;
-    }
-    
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--gray-300);
-    }
-    
-    .card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 1.5rem;
-      border-bottom: 1px solid var(--gray-200);
-    }
-    
-    .card-header h2 {
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--gray-800);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    
-    .card-body {
-      padding: 1.5rem;
-    }
-    
-    /* Kpi cards */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .kpi-card {
-      background-color: white;
-      border-radius: var(--radius-lg);
-      padding: 1.25rem;
-      border: 1px solid var(--gray-200);
-      box-shadow: var(--shadow-sm);
-      transition: var(--transition-normal);
-      position: relative;
-      overflow: hidden;
-      animation: fadeIn 0.5s forwards;
-    }
-    
-    .kpi-card:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--blue-100);
-    }
-    
-    .kpi-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: linear-gradient(90deg, var(--blue-500), var(--blue-400));
-      opacity: 0;
-      transition: var(--transition-normal);
-    }
-    
-    .kpi-card:hover::before {
-      opacity: 1;
-    }
-    
-    .kpi-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: var(--radius-md);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1rem;
-      font-size: 1.125rem;
-      transition: var(--transition-normal);
-    }
-    
-    .kpi-icon.primary {
-      background-color: var(--blue-50);
-      color: var(--blue-600);
-    }
-    
-    .kpi-icon.success {
-      background-color: var(--green-50);
-      color: var(--green-600);
-    }
-    
-    .kpi-icon.warning {
-      background-color: var(--yellow-50);
-      color: var(--yellow-600);
-    }
-    
-    .kpi-icon.danger {
-      background-color: var(--red-50);
-      color: var(--red-600);
-    }
-    
-    .kpi-card:hover .kpi-icon {
-      transform: scale(1.1);
-    }
-    
-    .kpi-label {
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: var(--gray-500);
-      margin-bottom: 0.375rem;
-    }
-    
-    .kpi-value {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: var(--gray-900);
-      letter-spacing: -0.01em;
-      margin-bottom: 0.25rem;
-    }
-    
-    .kpi-meta {
-      font-size: 0.75rem;
-      color: var(--gray-500);
-      display: flex;
-      align-items: center;
-      gap: 0.375rem;
-    }
-    
-    /* Boutons */
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.625rem 1.25rem;
-      border-radius: var(--radius-md);
-      font-weight: 500;
-      font-size: 0.875rem;
-      transition: var(--transition-normal);
-      cursor: pointer;
-      border: none;
-      outline: none;
-      box-shadow: var(--shadow-sm);
-      gap: 0.5rem;
-    }
-    
-    .btn-primary {
-      background: linear-gradient(90deg, var(--blue-500), var(--blue-600));
-      color: white;
-      border: 1px solid var(--blue-600);
-    }
-    
-    .btn-primary:hover:not(:disabled) {
-      background: linear-gradient(90deg, var(--blue-600), var(--blue-700));
-      transform: translateY(-1px);
-      box-shadow: var(--shadow-md);
-    }
-    
-    .btn-primary:active:not(:disabled) {
-      transform: translateY(0);
-    }
-    
-    .btn-primary:disabled {
-      background: linear-gradient(90deg, var(--gray-300), var(--gray-400));
-      color: var(--gray-100);
-      border-color: var(--gray-400);
-      cursor: not-allowed;
-    }
-    
-    .btn-secondary {
-      background-color: white;
-      color: var(--gray-700);
-      border: 1px solid var(--gray-300);
-    }
-    
-    .btn-secondary:hover:not(:disabled) {
-      background-color: var(--gray-50);
-      border-color: var(--gray-400);
-      transform: translateY(-1px);
-      box-shadow: var(--shadow-md);
-    }
-    
-    .btn-secondary:active:not(:disabled) {
-      transform: translateY(0);
-    }
-    
-    .btn-danger {
-      background: linear-gradient(90deg, var(--red-500), var(--red-600));
-      color: white;
-      border: 1px solid var(--red-600);
-    }
-    
-    .btn-danger:hover:not(:disabled) {
-      background: linear-gradient(90deg, var(--red-600), var(--red-700));
-      transform: translateY(-1px);
-      box-shadow: var(--shadow-md);
-    }
-    
-    .btn-danger:active:not(:disabled) {
-      transform: translateY(0);
-    }
-    
-    .btn-danger:disabled {
-      background: linear-gradient(90deg, var(--gray-300), var(--gray-400));
-      color: var(--gray-100);
-      border-color: var(--gray-400);
-      cursor: not-allowed;
-    }
-    
-    .btn-sm {
-      padding: 0.375rem 0.75rem;
-      font-size: 0.75rem;
-    }
-    
-    /* Barre de status */
-    .status-bar {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1.25rem;
-    }
-    
-    .status-indicator {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      margin-right: 0.5rem;
-    }
-    
-    .status-idle {
-      background-color: var(--gray-400);
-    }
-    
-    .status-running {
-      background-color: var(--blue-500);
-      animation: pulse 1.5s infinite;
-    }
-    
-    .status-completed {
-      background-color: var(--green-500);
-    }
-    
-    .status-error {
-      background-color: var(--red-500);
-    }
-    
-    .status-text {
-      font-size: 0.875rem;
-      font-weight: 500;
-      margin-right: 0.5rem;
-    }
-    
-    /* Progression */
-    .progress-container {
-      margin-bottom: 1.5rem;
-    }
-    
-    .progress-header {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 0.5rem;
-    }
-    
-    .progress-label {
-      font-size: 0.75rem;
-      font-weight: 500;
-      color: var(--gray-700);
-    }
-    
-    .progress-info {
-      font-size: 0.75rem;
-      color: var(--gray-500);
-    }
-    
-    .progress-bar {
-      width: 100%;
-      height: 8px;
-      background-color: var(--gray-100);
-      border-radius: 999px;
-      overflow: hidden;
-      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-    }
-    
-    .progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--blue-400), var(--blue-500));
-      border-radius: 999px;
-      width: 0%;
-      transition: width 0.5s ease;
-    }
-    
-    /* Console */
-    .console {
-      background-color: var(--gray-900);
-      border-radius: var(--radius-md);
-      padding: 1rem;
-      height: 400px;
-      overflow-y: auto;
-      color: var(--gray-100);
-      font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-      font-size: 0.8125rem;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-      border: 1px solid var(--gray-800);
-    }
-    
-    .console p {
-      margin: 0;
-      padding: 0.125rem 0;
-      word-wrap: break-word;
-    }
-    
-    .console p.error {
-      color: var(--red-400);
-    }
-    
-    .console p.warning {
-      color: var(--yellow-400);
-    }
-    
-    .console p.success {
-      color: var(--green-400);
-    }
-    
-    /* Files list */
-    .files-list {
-      margin-top: 0.75rem;
-      max-height: 400px;
-      overflow-y: auto;
-    }
-    
-    .file-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: white;
-      border: 1px solid var(--gray-200);
-      border-radius: var(--radius-md);
-      padding: 0.875rem 1rem;
-      margin-bottom: 0.625rem;
-      transition: var(--transition-normal);
-    }
-    
-    .file-item:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-md);
-      border-color: var(--blue-100);
-    }
-    
-    .file-info {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .file-name {
-      font-weight: 500;
-      font-size: 0.875rem;
-      color: var(--gray-800);
-      margin-bottom: 0.25rem;
-    }
-    
-    .file-meta {
-      font-size: 0.75rem;
-      color: var(--gray-500);
-    }
-    
-    .file-actions {
-      display: flex;
-      gap: 0.5rem;
-    }
-    
-    /* Stats grid */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1rem;
-    }
-    
-    /* Footer */
-    .footer {
-      margin-top: 2.5rem;
-      padding: 1.5rem 0;
-      border-top: 1px solid var(--gray-200);
-      text-align: center;
-      color: var(--gray-500);
-      font-size: 0.875rem;
-    }
-    
-    .footer-logo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      margin-bottom: 0.5rem;
-    }
-    
-    /* Styles pour le scrollbar */
-    ::-webkit-scrollbar {
-      width: 10px;
-      height: 10px;
-    }
-    
-    ::-webkit-scrollbar-track {
-      background: var(--gray-100);
-      border-radius: 5px;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-      background: var(--gray-300);
-      border-radius: 5px;
-      border: 2px solid var(--gray-100);
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--gray-400);
-    }
-    
-    /* Tooltip */
-    .tooltip {
-      position: relative;
-      display: inline-block;
-    }
-    
-    .tooltip:hover::after {
-      content: attr(data-tooltip);
-      position: absolute;
-      bottom: 125%;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: var(--gray-800);
-      color: white;
-      padding: 0.375rem 0.75rem;
-      border-radius: var(--radius-md);
-      font-size: 0.75rem;
-      white-space: nowrap;
-      z-index: 10;
-    }
-    
-    /* Badge */
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 0.25rem 0.5rem;
-      border-radius: var(--radius-md);
-      font-size: 0.75rem;
-      font-weight: 500;
-    }
-    
-    .badge-primary {
-      background-color: var(--blue-50);
-      color: var(--blue-600);
-      border: 1px solid var(--blue-100);
-    }
-    
-    .badge-success {
-      background-color: var(--green-50);
-      color: var(--green-600);
-      border: 1px solid var(--green-100);
-    }
-    
-    .badge-warning {
-      background-color: var(--yellow-50);
-      color: var(--yellow-600);
-      border: 1px solid var(--yellow-100);
-    }
-    
-    .badge-danger {
-      background-color: var(--red-50);
-      color: var(--red-600);
-      border: 1px solid var(--red-100);
-    }
-
-    /* Animation pour mettre en évidence les mises à jour */
-@keyframes highlight {
-  0% {
-    background-color: var(--blue-100);
-  }
-  100% {
-    background-color: transparent;
-  }
-}
-
-.highlight {
-  animation: highlight 1.5s ease-out;
-}
-
-/* Style pour les messages d'information dans la console */
-.console p.info {
-  color: var(--blue-400);
-}
-
-/* Amélioration de l'animation de la barre de progression */
-.progress-fill {
-  transition: width 0.3s ease-out;
-}
-  </style>
+  <link rel="stylesheet" href="/cb-scraper/public/assets/index.css">
 </head>
 <body>
   <div class="page-container">
@@ -707,14 +20,8 @@
         <div class="logo-icon">
           <i class="fas fa-database"></i>
         </div>
-        <div class="logo-text">Combak Scraper</div>
+        <div class="logo-text">QuelBonScraping</div>
       </a>
-      <div class="header-actions">
-        <a href="https://github.com/username/combak-scraper" target="_blank" class="btn btn-secondary btn-sm">
-          <i class="fab fa-github"></i>
-          Voir sur GitHub
-        </a>
-      </div>
     </div>
     
     <!-- KPI Cards -->
@@ -800,10 +107,35 @@
               </div>
             </div>
             
-            <div id="console" class="console">
-              <p>Bienvenue dans l'interface de contrôle du scraper Combak.</p>
-              <p>Cette application vous permet de collecter automatiquement les données de smartphones reconditionnés depuis le site Combak.</p>
-              <p>Cliquez sur "Lancer le scraping" pour démarrer la collecte de données.</p>
+            <!-- Console modernisée avec header et contrôles -->
+            <div class="console-wrapper">
+              <div class="console-header">
+                <div class="console-title">
+                  <i class="fas fa-terminal"></i>
+                  <span>Terminal</span>
+                </div>
+
+              </div>
+              
+              <div class="console-controls">
+                <button id="auto-scroll" class="btn-sm">
+                  <i class="fas fa-arrow-down"></i>
+                  Défilement auto
+                </button>
+              </div>
+              
+              <div id="console" class="console">
+                <div class="welcome-message">
+                  <div class="welcome-title">
+                    <i class="fas fa-info-circle"></i>
+                    Bienvenue dans l'interface de contrôle QuelBonScraping
+                  </div>
+                  <div class="welcome-content">
+                    <p>Cette application vous permet de collecter automatiquement les données de smartphones reconditionnés.</p>
+                    <p>Cliquez sur "Lancer le scraping" pour démarrer la collecte de données.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -891,9 +223,10 @@
     <footer class="footer">
       <div class="footer-logo">
         <i class="fas fa-database text-blue-500"></i>
-        <span class="font-medium">Combak Scraper</span>
+        <span class="font-medium">QuelBonScraping</span>
       </div>
-      <p>&copy; 2025 Combak Scraper. Tous droits réservés.</p>
+      
+      <p>&copy; 2025 QuelBonScraping. Tous droits réservés.</p>
     </footer>
   </div>
 
@@ -921,12 +254,24 @@
   const statsVendors = document.getElementById('stats-vendors');
   const statsGrades = document.getElementById('stats-grades');
   const statsColors = document.getElementById('stats-colors');
+  const autoScrollBtn = document.getElementById('auto-scroll');
   
   // Variables
   let scrapingStartTime = null;
   let timerInterval = null;
   let totalProducts = 0;
   let currentProductIndex = 0;
+  let autoScrollEnabled = true;
+  let showTimestamps = false;
+  
+  // Fonction pour formater l'horodatage
+  function getTimestamp() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+    return `${hours}:${minutes}:${seconds}`;
+  }
   
   // Animation pour les mises à jour de statistiques
   function updateStatWithHighlight(element, value) {
@@ -965,15 +310,77 @@
     }
   }
   
+  // Fonction améliorée pour ajouter des messages de log
   function addLogMessage(message, type = '') {
     const p = document.createElement('p');
+    
+    // Ajouter le type de message comme classe
     if (type) {
       p.className = type;
     }
     
-    p.textContent = message;
+    // Créer le contenu HTML du message avec horodatage et icônes
+    let messageContent = '';
+    
+    // Ajouter un horodatage
+    if (showTimestamps) {
+      messageContent += `<span class="timestamp">${getTimestamp()}</span>`;
+    }
+    
+    // Ajouter un badge selon le type de message
+    if (type) {
+      let badgeIcon = '';
+      let badgeText = '';
+      
+      switch (type) {
+        case 'info':
+          badgeIcon = 'info-circle';
+          badgeText = 'INFO';
+          break;
+        case 'success':
+          badgeIcon = 'check-circle';
+          badgeText = 'OK';
+          break;
+        case 'warning':
+          badgeIcon = 'exclamation-triangle';
+          badgeText = 'WARN';
+          break;
+        case 'error':
+          badgeIcon = 'times-circle';
+          badgeText = 'ERROR';
+          break;
+      }
+      
+      if (badgeIcon) {
+        messageContent += `<span class="badge-log badge-${type}"><i class="fas fa-${badgeIcon}"></i> ${badgeText}</span>`;
+      }
+    }
+    
+    // Traiter le contenu du message pour les liens et autres mise en forme
+    let processedMessage = message;
+    
+    // Mettre en évidence les noms de produits, URLs, etc.
+    processedMessage = processedMessage.replace(
+      /\[([\d]+)\/([\d]+)\]/g, 
+      '<span class="highlight-text">[$1/$2]</span>'
+    );
+    
+    // Convertir les URLs en liens cliquables
+    processedMessage = processedMessage.replace(
+      /(https?:\/\/[^\s]+)/g, 
+      '<a href="$1" target="_blank">$1</a>'
+    );
+    
+    // Ajouter le message traité
+    messageContent += processedMessage;
+    
+    p.innerHTML = messageContent;
     consoleElem.appendChild(p);
-    consoleElem.scrollTop = consoleElem.scrollHeight;
+    
+    // Défilement automatique si activé
+    if (autoScrollEnabled) {
+      consoleElem.scrollTop = consoleElem.scrollHeight;
+    }
   }
   
   function startTimer() {
@@ -1075,6 +482,18 @@
       });
   }
   
+  autoScrollBtn.addEventListener('click', () => {
+    autoScrollEnabled = !autoScrollEnabled;
+    if (autoScrollEnabled) {
+      autoScrollBtn.classList.add('active');
+      // Défiler vers le bas immédiatement si activé
+      consoleElem.scrollTop = consoleElem.scrollHeight;
+    } else {
+      autoScrollBtn.classList.remove('active');
+    }
+    addLogMessage(`Défilement automatique ${autoScrollEnabled ? 'activé' : 'désactivé'}`, 'info');
+  });
+  
   // Événements
   startBtn.addEventListener('click', () => {
     // Réinitialiser les statistiques
@@ -1090,7 +509,7 @@
     progressInfo.textContent = '0%';
     
     consoleElem.innerHTML = '';
-    addLogMessage('Démarrage du scraping...');
+    addLogMessage('Démarrage du scraping...', 'info');
     
     socket.emit('start-scraping');
     updateStatus('running');
@@ -1163,20 +582,28 @@ socket.on('scraper-stats', (stats) => {
 });
   
   // Écouteurs Socket.io existants
-  socket.on('log', (message) => {
-    if (message.includes('ERREUR')) {
-      addLogMessage(message, 'error');
-    } else if (message.includes('Attention')) {
-      addLogMessage(message, 'warning');
-    } else if (message.includes('terminé avec succès') || message.includes('sauvegardés')) {
-      addLogMessage(message, 'success');
-    } else {
-      addLogMessage(message);
+  socket.on('log', (message, type) => {
+    // Utiliser le type transmis ou déterminer le type en fonction du contenu
+    let messageType = type;
+    
+    if (!messageType) {
+      if (message.includes('ERREUR') || message.includes('erreur') || message.includes('⚠️') && message.includes('Erreur')) {
+        messageType = 'error';
+      } else if (message.includes('Attention') || message.includes('attention') || message.includes('⚠️')) {
+        messageType = 'warning';
+      } else if (message.includes('terminé avec succès') || message.includes('sauvegardés') || message.includes('✅')) {
+        messageType = 'success';
+      } else if (message.includes('Navigation') || message.includes('Récupération') || message.includes('ℹ️')) {
+        messageType = 'info';
+      }
     }
+    
+    addLogMessage(message, messageType);
   });
   
   socket.on('scraping-started', () => {
     updateStatus('running');
+    addLogMessage('Démarrage du scraping en cours...', 'info');
   });
   
   socket.on('scraping-completed', (data) => {
@@ -1194,6 +621,7 @@ socket.on('scraper-stats', (stats) => {
   socket.on('scraping-stopped', () => {
     updateStatus('idle');
     stopTimer();
+    addLogMessage('Scraping arrêté manuellement.', 'warning');
   });
   
   socket.on('progress-update', (message) => {
@@ -1210,6 +638,38 @@ socket.on('scraper-stats', (stats) => {
   
   // Initialisation
   loadFiles();
+  
+  // Fonction pour précharger les icônes utilisées dans la console pour éviter les retards d'affichage
+  function preloadConsoleIcons() {
+    const iconClasses = [
+      'fa-info-circle', 'fa-check-circle', 'fa-exclamation-triangle', 
+      'fa-times-circle', 'fa-clock', 'fa-arrow-down', 'fa-sync-alt',
+      'fa-terminal', 'fa-mobile-alt', 'fa-tag'
+    ];
+    
+    // Créer des éléments invisibles avec chaque icône pour les précharger
+    const preloadContainer = document.createElement('div');
+    preloadContainer.style.position = 'absolute';
+    preloadContainer.style.opacity = '0';
+    preloadContainer.style.pointerEvents = 'none';
+    
+    iconClasses.forEach(iconClass => {
+      const icon = document.createElement('i');
+      icon.className = `fas ${iconClass}`;
+      preloadContainer.appendChild(icon);
+    });
+    
+    document.body.appendChild(preloadContainer);
+    
+    // Supprimer après chargement
+    setTimeout(() => {
+      document.body.removeChild(preloadContainer);
+    }, 1000);
+  }
+  
+  // Précharger les icônes
+  preloadConsoleIcons();
+;
 </script>
 </body>
 </html>

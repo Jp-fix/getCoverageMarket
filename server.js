@@ -18,6 +18,10 @@ const io = new Server(server);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/data', express.static(path.join(__dirname, 'data')));
 
+// Pour accéder aux fichiers via le chemin /cb-scraper/public
+app.use('/cb-scraper/public', express.static(path.join(__dirname, 'public')));
+
+
 // Route pour la page d'accueil
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -60,6 +64,20 @@ app.get('/api/results', (req, res) => {
 
 // Variable pour stocker le processus de scraping
 let scrapingProcess = null;
+
+// Fonction pour classifier le type de message
+function classifyMessageType(message) {
+  if (message.includes('ERREUR') || message.includes('Échec') || message.includes('erreur')) {
+    return 'error';
+  } else if (message.includes('Attention') || message.includes('attention') || message.includes('WARNING')) {
+    return 'warning';
+  } else if (message.includes('terminé avec succès') || message.includes('sauvegardés') || message.includes('succès') || message.includes('✅')) {
+    return 'success';
+  } else if (message.includes('Navigation') || message.includes('chargée') || message.includes('Traitement') || message.includes('Récupér') || message.includes('ℹ️')) {
+    return 'info';
+  }
+  return '';
+}
 
 // Gestion des connexions WebSocket
 io.on('connection', (socket) => {
@@ -135,20 +153,23 @@ io.on('connection', (socket) => {
         }
       }
       
+      // Déterminer le type de message pour le styling côté client
+      const messageType = classifyMessageType(logMessage);
+      
       // Envoyer aussi le message de log normal
-      socket.emit('log', logMessage);
+      socket.emit('log', logMessage, messageType);
       io.emit('progress-update', logMessage);
     });
     
     scrapingProcess.stderr.on('data', (data) => {
       const errorMessage = data.toString();
       console.error(errorMessage);
-      socket.emit('log', `ERREUR: ${errorMessage}`);
+      socket.emit('log', `ERREUR: ${errorMessage}`, 'error');
     });
     
     scrapingProcess.on('close', (code) => {
       console.log(`Le processus de scraping s'est terminé avec le code: ${code}`);
-      socket.emit('log', `Le processus de scraping s'est terminé avec le code: ${code}`);
+      socket.emit('log', `Le processus de scraping s'est terminé avec le code: ${code}`, code === 0 ? 'success' : 'error');
       socket.emit('scraping-completed', { code });
       io.emit('scraping-completed', { code });
     });
@@ -158,11 +179,11 @@ io.on('connection', (socket) => {
   socket.on('stop-scraping', () => {
     if (scrapingProcess && !scrapingProcess.killed) {
       scrapingProcess.kill();
-      socket.emit('log', 'Le processus de scraping a été arrêté.');
+      socket.emit('log', 'Le processus de scraping a été arrêté.', 'warning');
       socket.emit('scraping-stopped');
       io.emit('scraping-stopped');
     } else {
-      socket.emit('log', 'Aucun processus de scraping en cours.');
+      socket.emit('log', 'Aucun processus de scraping en cours.', 'info');
     }
   });
   
@@ -186,6 +207,25 @@ io.on('connection', (socket) => {
         }
       } catch (error) {
         console.error('Erreur lors de la récupération des statistiques actuelles:', error);
+      }
+    } else {
+      // Si aucun scraping n'est en cours, vérifier s'il y a des résultats récents
+      try {
+        const latestResultsPath = path.join(__dirname, 'data', 'combak_latest_results.json');
+        if (fs.existsSync(latestResultsPath)) {
+          const latestResults = JSON.parse(fs.readFileSync(latestResultsPath, 'utf8'));
+          socket.emit('scraper-stats', {
+            productsCount: latestResults.products.length,
+            offersCount: latestResults.products.length,
+            avgPrice: latestResults.metadata.stats.avgPrice || 0,
+            vendors: latestResults.metadata.vendors || [],
+            grades: latestResults.metadata.grades || [],
+            colors: latestResults.metadata.couleurs || [],
+            marketCoverage: latestResults.metadata.marketCoverage?.percentage || 0
+          });
+        }
+      } catch (error) {
+        console.error('Erreur lors de la récupération des derniers résultats:', error);
       }
     }
   });

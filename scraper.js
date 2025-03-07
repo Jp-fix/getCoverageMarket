@@ -13,19 +13,28 @@ function sendStats(stats) {
   console.log(`SCRAPER_STATS: ${JSON.stringify(stats)}`);
 }
 
+// Fonction utilitaire pour formatter les messages d'état
+function logStatus(message, isError = false) {
+  if (isError) {
+    console.error(message);
+  } else {
+    console.log(message);
+  }
+}
+
 // Fonction principale
 async function main() {
-  console.log("Démarrage du script de scraping...");
+  logStatus("Démarrage du script de scraping...");
   
   const browser = await puppeteer.launch({ 
     args: ['--no-sandbox', '--disable-web-security'], 
     headless: true, // Passer à true pour l'exécution en mode serveur
     devtools: false 
   });
-  console.log("Navigateur lancé");
+  logStatus("✅ Navigateur lancé avec succès");
   
   const page = await browser.newPage();
-  console.log("Nouvelle page créée");
+  logStatus("✅ Nouvelle page créée");
 
   // Configurer le viewport
   await page.setViewport({width: 1600, height: 1024});
@@ -34,9 +43,9 @@ async function main() {
   const dataDir = path.join(process.cwd(), 'data');
   try {
     await fs.mkdir(dataDir, { recursive: true });
-    console.log(`Dossier de données créé: ${dataDir}`);
+    logStatus(`✅ Dossier de données créé: ${dataDir}`);
   } catch (err) {
-    console.log(`Dossier de données existe déjà: ${dataDir}`);
+    logStatus(`Dossier de données existe déjà: ${dataDir}`);
   }
 
   // Données pour le formatage final
@@ -84,29 +93,35 @@ async function main() {
   
   try {
     // 1. Naviguer vers la page principale des smartphones
-    console.log("Navigation vers la page principale...");
+    logStatus("Navigation vers la page principale des smartphones...");
     await page.goto('https://www.combak.co/smartphone', {
       waitUntil: 'networkidle2',
       timeout: 60000
     });
-    console.log("Page principale chargée");
+    logStatus("✅ Page principale chargée avec succès");
     
     // 2. Récupérer tous les produits de la première page
-    await page.waitForSelector('.ModelCard_Content__Xv65n', { timeout: 10000 });
+    try {
+      await page.waitForSelector('.ModelCard_Content__Xv65n', { timeout: 10000 });
+      logStatus("✅ Éléments de produits détectés sur la page");
+    } catch (error) {
+      logStatus("⚠️ Attention: Impossible de détecter les éléments de produits", true);
+      throw new Error("Sélecteurs de produits non trouvés");
+    }
     
     // 3. Vérifier s'il y a plusieurs pages
     const hasMorePages = await page.evaluate(() => {
       return !!document.querySelector('.ant-pagination');
     });
     
-    console.log(`Le site a plusieurs pages: ${hasMorePages ? 'Oui' : 'Non'}`);
+    logStatus(`ℹ️ Le site a plusieurs pages: ${hasMorePages ? 'Oui' : 'Non'}`);
     
     // 4. Récupérer les produits de toutes les pages
     let currentPage = 1;
     let hasNextPage = true;
     
     while (hasNextPage) {
-      console.log(`Récupération des produits de la page ${currentPage}...`);
+      logStatus(`🔍 Récupération des produits de la page ${currentPage}...`);
       
       // Extraire les produits de la page courante
       const pageProducts = await page.evaluate(() => {
@@ -124,7 +139,7 @@ async function main() {
         return products;
       });
       
-      console.log(`${pageProducts.length} produits trouvés sur la page ${currentPage}`);
+      logStatus(`✅ ${pageProducts.length} produits trouvés sur la page ${currentPage}`);
       allProducts = [...allProducts, ...pageProducts];
       
       // Envoyer des statistiques après chaque page
@@ -161,18 +176,18 @@ async function main() {
       }
     }
     
-    console.log(`Au total, ${allProducts.length} produits ont été récupérés sur toutes les pages`);
+    logStatus(`🎉 Au total, ${allProducts.length} produits ont été récupérés sur toutes les pages`);
     
     // Sauvegarder tous les produits
     await fs.writeFile(path.join(dataDir, 'all_products.json'), 
                        JSON.stringify(allProducts, null, 2));
     
     // 5. Pour chaque produit, visiter sa page et récupérer les offres
-    console.log("Récupération des détails pour chaque produit...");
+    logStatus("📱 Récupération des détails pour chaque produit...");
     
     for (let i = 0; i < allProducts.length; i++) {
       const product = allProducts[i];
-      console.log(`[${i+1}/${allProducts.length}] Traitement de ${product.brand} ${product.name}...`);
+      logStatus(`[${i+1}/${allProducts.length}] Traitement de ${product.brand} ${product.name}...`);
       
       // Calculer la progression
       const progress = Math.round(((i + 1) / allProducts.length) * 100);
@@ -198,7 +213,7 @@ async function main() {
           waitUntil: 'networkidle2',
           timeout: 30000
         });
-        console.log(`Page produit chargée: ${product.url}`);
+        logStatus(`✅ Page produit chargée: ${product.name}`);
         
         // Attendre un peu pour être sûr que les offres sont chargées
         await new Promise(resolve => setTimeout(resolve, 2000));
@@ -209,7 +224,7 @@ async function main() {
         });
         
         if (!hasOffers) {
-          console.log(`Aucune offre trouvée pour ${product.name}`);
+          logStatus(`ℹ️ Aucune offre trouvée pour ${product.name}`);
           continue;
         }
         
@@ -314,7 +329,7 @@ async function main() {
           });
         }, product);
         
-        console.log(`Récupéré ${productOffers.length} offres pour ${product.name}`);
+        logStatus(`✅ Récupéré ${productOffers.length} offres pour ${product.name}`);
         
         // Ajouter les offres aux produits avec détails
         productsWithOffers.push({
@@ -365,7 +380,7 @@ async function main() {
                            JSON.stringify(results, null, 2));
         
       } catch (error) {
-        console.error(`Erreur lors du traitement de ${product.name}:`, error);
+        logStatus(`⚠️ Erreur lors du traitement de ${product.name}: ${error.message}`, true);
       }
       
       // Pause pour éviter de surcharger le site
@@ -373,7 +388,7 @@ async function main() {
     }
     
     // 6. Finaliser et formater les résultats
-    console.log("Finalisation des résultats...");
+    logStatus("📊 Finalisation des résultats...");
     
     // Calculer les statistiques
     const totalProducts = results.products.length;
@@ -459,12 +474,16 @@ async function main() {
     await fs.writeFile(path.join(dataDir, 'combak_latest_results.js'), 
                        formattedOutput);
     
-    console.log(`Tous les résultats ont été sauvegardés dans le dossier 'data'`);
-    console.log(`Nombre total de produits traités: ${allProducts.length}`);
-    console.log(`Nombre total d'offres récupérées: ${results.products.length}`);
+    logStatus(`✅ Tous les résultats ont été sauvegardés dans le dossier 'data'`);
+    logStatus(`🔢 Nombre total de produits traités: ${allProducts.length}`);
+    logStatus(`📊 Nombre total d'offres récupérées: ${results.products.length}`);
+    logStatus(`💰 Prix moyen des offres: ${avgPrice} €`);
+    logStatus(`🏢 Nombre de vendeurs détectés: ${vendorsList.size}`);
+    logStatus(`🏷️ Nombre de grades détectés: ${gradesList.size}`);
+    logStatus(`🌈 Nombre de couleurs détectées: ${couleursList.size}`);
     
   } catch (error) {
-    console.error("Erreur lors du scraping:", error);
+    logStatus(`⚠️ ERREUR lors du scraping: ${error.message}`, true);
     
     // Envoyer des statistiques d'erreur
     sendStats({
@@ -473,15 +492,15 @@ async function main() {
     });
   } finally {
     // Fermer le navigateur quoi qu'il arrive
-    console.log("Fermeture du navigateur...");
+    logStatus("🔄 Fermeture du navigateur...");
     await browser.close();
   }
 }
 
 // Exécuter la fonction principale et gérer les erreurs
 main()
-  .then(() => console.log("Script terminé avec succès"))
+  .then(() => logStatus("🎉 Script terminé avec succès"))
   .catch(error => {
-    console.error("Échec du script:", error);
+    logStatus(`⚠️ Échec du script: ${error.message}`, true);
     process.exit(1);
   });
